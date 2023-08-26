@@ -46,7 +46,7 @@ socket.emit('username', username);
 
 // Use the enter key to send text
 msg.addEventListener('keydown', (e) => {
-  if(e.keyCode === 13) {
+  if(e.key === 'Enter) {
     e.preventDefault();
     sendMsg();
   }
